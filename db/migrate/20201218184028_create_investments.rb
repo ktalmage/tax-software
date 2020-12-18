@@ -49,6 +49,8 @@ class CreateInvestments < ActiveRecord::Migration[6.0]
       t.integer :other_ded_13w
       t.integer :total_foreign_tax_paid_16p
       t.integer :total_foreign_tax_accrued_16q
+      t.integer :user_id
+      t.integer :client_id
 
       t.timestamps
     end
