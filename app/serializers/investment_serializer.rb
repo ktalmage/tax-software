@@ -1,0 +1,4 @@
+class InvestmentSerializer
+  include JSONAPI::Serializer
+  attributes :name, :ein, :ord_inc_1, :net_inc_rental_real_estate_2, :net_inc_other_rental_3, :gp_services_4a, :gp_capital_4b, :gp_total_4c, :int_inc_5, :ord_div_6a, :qual_div_6b, :div_equiv_6c, :royalties_7, :net_st_cap_8, :net_lt_cap_9a, :collect_rate_9b, :unrecapture_gain_9c, :sec1231_10, :other_port_inc_11a, :inv_conv_11b, :sec1256_11c, :min_exp_recap_11d, :cancel_debt_11e, :other_inc_11f, :sec179_12, :cash_cont_60_13a, :cash_cont_30_13b, :noncash_cont_50_13c, :noncash_cont_30_13d, :cap_gain_prop_50_13e, :cap_gain_prop_20_13f, :cont_100_13g, :inv_int_exp_13h, :royalty_inc_13i, :sec592e_13j, :exc_bus_int_exp_13k, :other_ded_13l, :amt_med_ins_13m, :educ_assist_13n, :depend_care_13o, :preprod_period_exp_13p, :revital_deduct_re_13q, :pens_ira_13r, :reforest_exp_13s, :sec743b_adj_13v, :other_ded_13w, :total_foreign_tax_paid_16p, :total_foreign_tax_accrued_16q, :total_foreign_tax_accrued_16q
+end
